@@ -196,7 +196,7 @@ a { color: inherit; text-decoration: none; }
   background-clip: text;
 }
 
-.hero-subtitle { font-size: 18px; color: #94A3B8; line-height: 1.7; margin-bottom: 36px; max-width: 520px; }
+.hero-subtitle { font-size: 18px; color: #CBD5E1; line-height: 1.7; margin-bottom: 36px; max-width: 520px; }
 
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 44px; }
 
@@ -205,12 +205,12 @@ a { color: inherit; text-decoration: none; }
 }
 .hero-trust-item {
   display: flex; align-items: center; gap: 8px;
-  color: #94A3B8; font-size: 13px;
+  color: #CBD5E1; font-size: 13px;
 }
 .hero-trust-item svg { color: #22C55E; flex-shrink: 0; }
 
 .hero-card {
-  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
   border-radius: var(--radius-lg); padding: 32px; backdrop-filter: blur(10px);
 }
 .hero-card-header {
@@ -234,8 +234,8 @@ a { color: inherit; text-decoration: none; }
   font-size: 18px;
 }
 .step-info { flex: 1; }
-.step-info strong { color: #E2E8F0; font-size: 14px; display: block; }
-.step-info span { color: #64748B; font-size: 12px; }
+.step-info strong { color: #F1F5F9; font-size: 14px; display: block; }
+.step-info span { color: #94A3B8; font-size: 12px; }
 .step-status { font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; }
 .step-status.done { background: #DCFCE7; color: #15803D; }
 .step-status.live { background: #DBEAFE; color: var(--primary); }
