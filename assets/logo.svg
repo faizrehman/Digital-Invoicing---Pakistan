@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- D letterform - blue arc shape -->
+  <path d="M8 8 H44 C72 8 92 26 92 40 C92 54 72 72 44 72 H8 Z" fill="#1D4ED8"/>
+  <!-- D inner cutout (white) -->
+  <path d="M26 22 H42 C58 22 68 30 68 40 C68 50 58 58 42 58 H26 Z" fill="white"/>
+  <!-- Green bracket accent (bottom-left of D) -->
+  <rect x="8" y="52" width="12" height="20" fill="#22C55E"/>
+  <rect x="8" y="52" width="20" height="10" fill="#22C55E"/>
+
+  <!-- Brand name: DIGITAL -->
+  <text x="106" y="34" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="22" fill="#1E293B" letter-spacing="-0.5">DIGITAL</text>
+  <!-- Brand name: INVOICING -->
+  <text x="106" y="62" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="22" fill="#1D4ED8" letter-spacing="-0.5">INVOICING</text>
+
+  <!-- 247 badge -->
+  <rect x="272" y="50" width="40" height="20" rx="4" fill="#1D4ED8"/>
+  <text x="292" y="64" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="12" fill="white" text-anchor="middle">247</text>
+</svg>
