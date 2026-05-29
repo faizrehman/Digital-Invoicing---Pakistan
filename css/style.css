@@ -563,9 +563,17 @@ footer {
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
+/* ── Inline-replaced grids ───────────────── */
+.who-grid    { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.addons-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.tech-grid   { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+
 /* ── Responsive ──────────────────────────── */
 @media (max-width: 1024px) {
   .features-grid { grid-template-columns: repeat(2, 1fr); }
+  .who-grid    { grid-template-columns: repeat(2, 1fr); }
+  .addons-grid { grid-template-columns: repeat(2, 1fr); }
+  .tech-grid   { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .steps-grid { grid-template-columns: repeat(2, 1fr); }
   .step-card:nth-child(2)::after { display: none; }
@@ -585,6 +593,9 @@ footer {
   .steps-grid { grid-template-columns: 1fr; }
   .step-card::after { display: none; }
   .contact-grid { grid-template-columns: 1fr; }
+  .who-grid    { grid-template-columns: 1fr; }
+  .addons-grid { grid-template-columns: 1fr; }
+  .features-grid { grid-template-columns: 1fr; }
   .input-methods-grid { grid-template-columns: repeat(2, 1fr); }
   .setup-box { flex-direction: column; text-align: center; }
   .footer-top { grid-template-columns: 1fr; gap: 32px; }
@@ -608,4 +619,5 @@ footer {
   .stats-grid { grid-template-columns: 1fr; }
   .stat-item { border-right: none !important; }
   .metric-grid { grid-template-columns: 1fr; }
+  .input-methods-grid { grid-template-columns: 1fr; }
 }
